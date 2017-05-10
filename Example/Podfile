@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MBFirst_Example' do
+  pod 'MBFirst', :path => '../'
+
+  target 'MBFirst_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
