@@ -10,15 +10,18 @@ import Foundation
 import UIKit
 
 
-class mbUtility{
+public class mbUtility{
     
+    public init(){
+        
+    }
     
-    func getColor(r:CGFloat,g:CGFloat,b:CGFloat)->UIColor{
+   public func getColor(r:CGFloat,g:CGFloat,b:CGFloat)->UIColor{
         let color =  UIColor(red: r/255, green: g/255, blue: b/255, alpha: 1)
         return color
     }
     
-    func showAlert(message:String,controller:UIViewController){
+    public func showAlert(message:String,controller:UIViewController){
         
         let alert = UIAlertController(title: "Demo", message: message, preferredStyle: .alert)
         
