@@ -1,0 +1,22 @@
+{
+  "name": "MBFirst",
+  "version": "0.1.0",
+  "summary": "A short description of MBFirst.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nakumKishan/MBFirst",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nakumKishan": "nakum84@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nakumKishan/MBFirst.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MBFirst/Classes/**/*"
+}

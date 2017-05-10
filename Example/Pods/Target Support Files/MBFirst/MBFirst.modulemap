@@ -1,0 +1,6 @@
+framework module MBFirst {
+  umbrella header "MBFirst-umbrella.h"
+
+  export *
+  module * { export * }
+}
